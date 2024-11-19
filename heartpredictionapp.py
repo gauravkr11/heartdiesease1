@@ -6,7 +6,7 @@ import pickle
 # Load the trained RandomForest model and scaler
 with open('rheartdisease_model.pkl', 'rb') as file:
     model = pickle.load(file)
-with open('sch.pkl', 'rb') as scaler_file:
+with open('rhd.pkl', 'rb') as scaler_file:
     scaler = pickle.load(scaler_file)
 
 # Define the Streamlit app
